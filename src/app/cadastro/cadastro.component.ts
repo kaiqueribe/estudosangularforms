@@ -27,6 +27,10 @@ export class CadastroComponent implements OnInit {
       senha: ['', [Validators.required, Validators.minLength(6)]]
     });
   }
+
+  OnSubmit(){
+    console.log("OnSubmit")
+  }
   
   
 }
